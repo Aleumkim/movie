@@ -1,0 +1,23 @@
+@use '../base/variables' as *;
+@use '../base/mixins' as *;
+
+footer {
+    margin: 4.5rem auto;
+
+    cite {
+        font-size: 0.75rem;
+    }
+    
+    @media (min-width: $tablet) {
+            margin: 4rem 0 0;
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid $glow-outline;
+
+        cite {
+            font-size: 1rem;
+        }
+    }
+}
+
+

@@ -1,0 +1,19 @@
+// Base
+
+@use './base/normalize';
+@use './base/variables';
+@use './base/general';
+
+
+// Components
+
+@use './components/header';
+@use './components/mobileNav';
+@use './components/favesGrid'; 
+@use './components/moviesGrid';
+@use './components/movieCard';
+@use './components/about';
+@use './components/notFound';
+@use './components/singleMovie';
+@use './components/topNav';
+@use './components/footer';
